@@ -4,7 +4,7 @@ Screenfinch is a free Mac menu bar app from Good Tools. Click the finch to adjus
 
 ## Install
 
-[Download Screenfinch 1.0 for Mac](https://github.com/MadeByGoodTools/Screenfinch-Updates/releases/download/v1.0/GoodTools-Installer-Screenfinch-1.0-macOS-Universal.dmg)
+[Download Screenfinch 1.0 for Mac](https://github.com/MadeByGoodTools/Screenfinch/releases/download/v1.0/GoodTools-Installer-Screenfinch-1.0-macOS-Universal.dmg)
 
 Open the Screenfinch disk image, drag **Screenfinch** onto **Applications**, and launch it there. The same disk image also includes the guided Good Tools Installer. Version 1.0 supports Apple silicon and Intel Macs running macOS 13 or later.
 
