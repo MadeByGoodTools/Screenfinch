@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+  <title>Screenfinch by Good Tools</title>
+  <organization>ca.goodtools</organization>
+  <domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
+  <options customize="never" require-scripts="false" hostArchitectures="arm64,x86_64"/>
+  <volume-check><allowed-os-versions><os-version min="13.0"/></allowed-os-versions></volume-check>
+  <background file="GoodTools-installer-background.png" alignment="center" scaling="tofit"/>
+  <welcome file="welcome.html" mime-type="text/html"/>
+  <choices-outline><line choice="screenfinch"/></choices-outline>
+  <choice id="screenfinch" title="Screenfinch" description="Menu bar display controls by Good Tools">
+    <pkg-ref id="ca.goodtools.screenfinch"/>
+  </choice>
+  <pkg-ref id="ca.goodtools.screenfinch">Screenfinch-component.pkg</pkg-ref>
+</installer-gui-script>
